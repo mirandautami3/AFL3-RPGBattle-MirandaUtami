@@ -14,6 +14,10 @@
 		9F09E75229ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09E75129ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056Tests.swift */; };
 		9F09E75C29ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09E75B29ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056UITests.swift */; };
 		9F09E75E29ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09E75D29ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056UITestsLaunchTests.swift */; };
+		9F09E76F29ED47E000958B44 /* Opening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09E76E29ED47E000958B44 /* Opening.swift */; };
+		9FAFC7A129FA559000921630 /* splashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFC7A029FA559000921630 /* splashScreen.swift */; };
+		9FAFC7A329FA55C700921630 /* PlayNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFC7A229FA55C700921630 /* PlayNow.swift */; };
+		9FAFC7A529FA55DE00921630 /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFC7A429FA55DE00921630 /* UserPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		9F09E75729ED46FF00958B44 /* AFL3-RPGBattle-MirandaUtami-0706012110056UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-RPGBattle-MirandaUtami-0706012110056UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F09E75B29ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_RPGBattle_MirandaUtami_0706012110056UITests.swift; sourceTree = "<group>"; };
 		9F09E75D29ED46FF00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_RPGBattle_MirandaUtami_0706012110056UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F09E76E29ED47E000958B44 /* Opening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opening.swift; sourceTree = "<group>"; };
+		9FAFC7A029FA559000921630 /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
+		9FAFC7A229FA55C700921630 /* PlayNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayNow.swift; sourceTree = "<group>"; };
+		9FAFC7A429FA55DE00921630 /* UserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,12 @@
 			children = (
 				9F09E74029ED46FE00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056App.swift */,
 				9F09E74229ED46FE00958B44 /* ContentView.swift */,
+				9FAFC7A029FA559000921630 /* splashScreen.swift */,
+				9FAFC7A229FA55C700921630 /* PlayNow.swift */,
+				9FAFC7A429FA55DE00921630 /* UserPage.swift */,
 				9F09E74429ED46FF00958B44 /* Assets.xcassets */,
 				9F09E74629ED46FF00958B44 /* Preview Content */,
+				9F09E76E29ED47E000958B44 /* Opening.swift */,
 			);
 			path = "AFL3-RPGBattle-MirandaUtami-0706012110056";
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAFC7A329FA55C700921630 /* PlayNow.swift in Sources */,
+				9FAFC7A129FA559000921630 /* splashScreen.swift in Sources */,
+				9F09E76F29ED47E000958B44 /* Opening.swift in Sources */,
 				9F09E74329ED46FE00958B44 /* ContentView.swift in Sources */,
 				9F09E74129ED46FE00958B44 /* AFL3_RPGBattle_MirandaUtami_0706012110056App.swift in Sources */,
+				9FAFC7A529FA55DE00921630 /* UserPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
